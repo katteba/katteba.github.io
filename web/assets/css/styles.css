@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:700);
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background: #000 url(../images/3827808607_11014dac24_b.jpg) no-repeat center center;
+  color: #f0f0f0;
+  min-height: 683px;
+  padding-top: 50px;
+}
+a {
+  color: #fff;
+}
+
+.container {
+  width: 924px;
+  margin: 0 auto;
+}
+#eyecatch {
+  margin: 50px auto 10px;
+  padding: 50px 50px 0;
+  font-weight: 700;
+}
+#background-copy {
+  position: relative;
+  margin-top: 350px;
+  padding: 50px;
+}
+#background-copy p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, .55);
+}
+
+@media screen and (max-width: 924px) {
+  body {
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  #eyecatch, #background-copy {
+    padding: 50px 0;
+  }
+  #background-copy p {
+    position: static;
+    padding: 15px;
+  }
+}
