@@ -1,51 +1,59 @@
-@import url(http://fonts.googleapis.com/css?family=Comfortaa:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
 body {
-  font-family: 'Comfortaa', cursive;
-  background: #000 url(../images/3827808607_11014dac24_b.jpg) no-repeat center center;
-  color: #f0f0f0;
-  min-height: 683px;
-  padding-top: 50px;
+  color: #333;
+  font-family: "Roboto Slab", Garamond, "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
 }
+
+main {
+  padding: 0 2em;
+}
+
 a {
-  color: #fff;
+  color: #999;
 }
 
-.container {
-  width: 924px;
-  margin: 0 auto;
-}
-#eyecatch {
-  margin: 50px auto 10px;
-  padding: 50px 50px 0;
-  font-weight: 700;
-}
-#background-copy {
-  position: relative;
-  margin-top: 350px;
-  padding: 50px;
-}
-#background-copy p {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 15px;
-  background: rgba(0, 0, 0, .55);
+h1 {
+  margin: 3em auto;
+  font-size: xx-large;
+  text-align: center;
 }
 
-@media screen and (max-width: 924px) {
-  body {
-    padding: 0;
-  }
-  .container {
-    width: 100%;
-    text-align: center;
-  }
-  #eyecatch, #background-copy {
-    padding: 50px 0;
-  }
-  #background-copy p {
-    position: static;
-    padding: 15px;
+h2 {
+  margin: 3em auto;
+  text-align: center;
+}
+
+h1 span, h2 span, h3 span {
+  border-bottom: 1px solid #333;
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  padding: 0.5em 0.2em 0.5em 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "kozuka-mincho-pr6n", "Roboto Slab", Garamond, "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+
+.lead {
+  text-align: center;
+}
+
+section {
+  margin: 10em 0;
+}
+
+body > footer {
+  color: #aaa;
+  font-weight: 100;
+  font-size: small;
+  margin: 5em 0 3em;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  main {
+    margin: 0 auto;
+    width: 440px;
   }
 }
