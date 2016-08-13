@@ -43,6 +43,10 @@ section {
   margin: 10em 0;
 }
 
+dl dd {
+  margin-bottom: 1em;
+}
+
 body > footer {
   color: #aaa;
   font-weight: 100;
